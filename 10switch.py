@@ -1,7 +1,4 @@
-# Accept a number from 1 to 7
 num = int(input("Enter a number (1-7): "))
-
-# Match number with day
 if num == 1:
     print("Sunday")
 elif num == 2:
@@ -18,3 +15,4 @@ elif num == 7:
     print("Saturday")
 else:
     print("Invalid input! Please enter a number between 1 and 7.")
+

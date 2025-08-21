@@ -1,7 +1,5 @@
-# Read percentage from user
-percentage = float(input("Enter your percentage: "))
 
-# Check grade
+percentage = float(input("Enter your percentage: "))
 if percentage < 25:
     print("Grade: D")
 elif percentage <= 45:
@@ -11,4 +9,5 @@ elif percentage <= 65:
 elif percentage <= 85:
     print("Grade: A")
 else:
+
     print("Grade: A+")
